@@ -40,7 +40,7 @@ function Navbar() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             <p className="text-sm">
-              <span className="font-semibold">Sa</span> Hizmetinizdeyiz!
+              <span className="font-semibold">Kasapoğlu Oto Kurtarma</span> Hizmetinizdeyiz!
             </p>
             <div className="flex items-center gap-4">
               <a
