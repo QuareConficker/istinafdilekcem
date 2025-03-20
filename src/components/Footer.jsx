@@ -18,9 +18,9 @@ function Footer() {
   }
 
   const socialLinks = {
-    facebook: "https://facebook.com/usaknakliyat",
-    instagram: "https://instagram.com/usaknakliyat",
-    youtube: "https://youtube.com/usaknakliyat"
+    facebook: "#0",
+    instagram: "#0",
+    youtube: "#0"
   }
 
   return (
