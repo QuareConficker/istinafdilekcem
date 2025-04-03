@@ -2,51 +2,51 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowRight, BsCalendar, BsPerson } from 'react-icons/bs'
 
-import otoCekici from '../assets/images/blog/oto-cekici2.jpg'
-import otoKurtarma from '../assets/images/blog/oto-kurtarma2.jpg'
-import yolYardim from '../assets/images/blog/yol-yardim.jpg'
+import istinaf from '../assets/images/blog/istinaf.png'
+import istinaf2 from '../assets/images/blog/istinaf2.png'
+import istinaf3 from '../assets/images/blog/istinaf3.png'
 
 function Blog() {
   const posts = [
     {
       id: 1,
-      title: "Uşak Oto Çekici Hizmeti ile Yolda Kalmayın",
-      description: "Uşak’ta yolda kalmak artık sorun değil! Uşak oto çekici hizmetimizle, aracınız hangi sebeple olursa olsun yolda kaldığında en kısa sürede yanınızdayız. 7/24 oto çekici",
-      image: otoCekici,
+      title: "İstinaf Dilekçesi Nedir?",
+      description: "İstinaf dilekçesi, bir mahkeme kararına karşı başvurulabilen ikinci derece bir yargılama yöntemidir. Birinci derece mahkemesinde verilen kararlar, belirli koşullar altında istinaf mahkemesine taşınabilir. İstinaf başvurusu, hukuki bir hata yapıldığını ve bu hatanın düzeltilmesi gerektiğini iddia eden bir başvurudur.",
+      image: istinaf,
       date: "15 Mart 2024",
-      author: "Kasapoğlu Oto Çekici",
-      category: "Oto Çekici Hizmeti"
+      author: "İstinaf Dilekçem",
+      category: "İstinaf Dilekçesi"
     },
     {
       id: 2,
-      title: "Uşak Oto Kurtarma ile Aracınızı Güvenle Taşıyoruz",
-      description: "Zorlu hava koşulları, ani arızalar veya kazalar nedeniyle aracınız yolda mı kaldı? Endişelenmeyin! Uşak oto kurtarma",
-      image: otoKurtarma,
+      title: "İstinaf Dilekçesi Nedir ve Neden Bir Uzmandan Yardım Almalısınız?",
+      description: "İstinaf dilekçesi, bir mahkemenin verdiği kararın ikinci derecede incelenmesi için başvurulan önemli bir hukuki yoldur. ",
+      image: istinaf2,
       date: "10 Mart 2024",
-      author: "Kasapoğlu Oto Kurtarma",
-      category: "Oto Kurtarma Hizmeti"
+      author: "İstinaf Dilekçem",
+      category: "İstinaf Dilekçesi"
     },
     {
       id: 3,
-      title: "Uşak Yol Yardım Hizmeti: 7/24 Kesintisiz Destek",
-      description: "Araç kullanırken beklenmedik sorunlarla karşılaşabilirsiniz. Lastik patlaması, yakıt bitmesi veya akü sorunları gibi durumlarda Uşak yol yardım ",
-      image: yolYardim,
+      title: "İstinaf Dilekçesi Hazırlamak: Neden Bir Uzman Yardımına İhtiyacınız Var?",
+      description: "İstinaf dilekçesi, mahkemelerin verdiği kararları ikinci derece incelemeye alarak, bu kararın hatalı olduğu noktaları düzelttirmeyi amaçlayan hukuki bir başvurudur.",
+      image: istinaf3,
       date: "5 Mart 2024",
-      author: "Kasapoğlu Yol Yardım",
-      category: "Yol Yardım Hizmeti"
+      author: "İstinaf Dilekçem",
+      category: "İstinaf Dilekçesi"
     }
   ];
 
   return (
-    <section data-aos="fade-left" className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Blog
+            İstinaf Dilekçemden Haberler
           </h2>
           <p className="text-gray-600 text-lg">
-            En son haberler ve güncel içerikler
+            İstinaf dilekçesi hakkında ve güncel bilgiler
           </p>
         </div>
 
@@ -104,17 +104,6 @@ function Blog() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* CTA */}
-        <div className="mt-16 text-center">
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300"
-          >
-            Tüm Blog Yazılarını İnceleyin
-            <BsArrowRight />
-          </Link>
         </div>
       </div>
     </section>

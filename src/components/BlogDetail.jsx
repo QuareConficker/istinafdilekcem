@@ -2,9 +2,10 @@ import React from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { BsCalendar, BsPerson, BsArrowLeft, } from 'react-icons/bs'
 
-import otoCekici from '../assets/images/blog/oto-cekici2.jpg'
-import otoKurtarma from '../assets/images/blog/oto-kurtarma2.jpg'
-import yolYardim from '../assets/images/blog/yol-yardim.jpg'
+
+import istinaf from '../assets/images/blog/istinaf.png'
+import istinaf2 from '../assets/images/blog/istinaf2.png'
+import istinaf3 from '../assets/images/blog/istinaf3.png'
 
 function BlogDetail() {
   const { blogId } = useParams()
@@ -13,56 +14,76 @@ function BlogDetail() {
   const blogPosts = [
     {
       id: 1,
-      title: "Uşak Oto Çekici Hizmeti ile Yolda Kalmayın",
-      description: "Uşak’ta yolda kalmak artık sorun değil! Uşak oto çekici hizmetimizle, aracınız hangi sebeple olursa olsun yolda kaldığında en kısa sürede yanınızdayız. 7/24 oto çekici",
+      title: "İstinaf Dİlekçesi Nedir?",
+      description: "İstinaf dilekçesi, bir mahkeme kararına karşı başvurulabilen ikinci derece bir yargılama yöntemidir. ",
       content: `
-        Uşak’ta yolda kalmak artık sorun değil! Uşak oto çekici hizmetimizle, aracınız hangi sebeple olursa olsun yolda kaldığında en kısa sürede yanınızdayız. 7/24 oto çekici hizmetimiz sayesinde gece gündüz demeden hızlı ve güvenilir çözümler sunuyoruz.
-
-        Aracınızın aküsü mü bitti? Lastiğiniz mi patladı? Yakıtınız mı tükendi? Uşak yol yardım hizmetimiz ile tüm bu sorunlara anında çözüm buluyoruz. Deneyimli ekibimiz ve modern çekici araçlarımız sayesinde aracınızı dilediğiniz noktaya güvenle taşıyoruz.
-
-        Eğer siz de acil çekici Uşak hizmetine ihtiyaç duyuyorsanız, vakit kaybetmeden bize ulaşın. Güvenilir oto kurtarma çözümlerimiz ile her an yanınızdayız!
+       İstinaf dilekçesi, bir mahkeme kararına karşı başvurulabilen ikinci derece bir yargılama yöntemidir. Birinci derece mahkemesinde verilen kararlar, belirli koşullar altında istinaf mahkemesine taşınabilir. İstinaf başvurusu, hukuki bir hata yapıldığını ve bu hatanın düzeltilmesi gerektiğini iddia eden bir başvurudur.
       `,
-      image: otoCekici,
+      image: istinaf,
       date: "15 Mart 2024",
-      author: "Kasapoğlu Oto Çekici",
-      category: "Oto Çekici Hizmeti",
-      readTime: "5 dakika",
+      author: "İstinaf Dilekçem",
+      category: "İstinaf Dilekçesi",
+      readTime: "2 dakika",
       relatedPosts: [2, 3]
     },
     {
       id: 2,
-      title: "Uşak Oto Kurtarma ile Aracınızı Güvenle Taşıyoruz",
-      description: "Zorlu hava koşulları, ani arızalar veya kazalar nedeniyle aracınız yolda mı kaldı? Endişelenmeyin! Uşak oto kurtarma",
+      title: "İstinaf Dilekçesi Nedir ve Neden Bir Uzmandan Yardım Almalısınız?",
+      description: "İstinaf dilekçesi, bir mahkemenin verdiği kararın ikinci derecede incelenmesi için başvurulan önemli bir hukuki yoldur.",
       content: `
-        Zorlu hava koşulları, ani arızalar veya kazalar nedeniyle aracınız yolda mı kaldı? Endişelenmeyin! Uşak oto kurtarma hizmetimizle aracınızı güvenli bir şekilde kurtarıyor ve istediğiniz noktaya ulaştırıyoruz.
+        İstinaf dilekçesi, bir mahkemenin verdiği kararın ikinci derecede incelenmesi için başvurulan önemli bir hukuki yoldur. Ancak bu başvuru, her zaman basit bir süreç değildir. Yanlış bir biçimde yazılan bir istinaf dilekçesi, hak kaybına yol açabilir ve kararın düzeltilmesi yerine daha da karmaşık hale gelmesine neden olabilir. İşte tam bu noktada, bir uzman desteği almanızın neden kritik olduğunu anlamanızı sağlayacak birkaç önemli neden:
 
-        Deneyimli ekibimiz, hızlı çekici Uşak hizmetimiz ile en kısa sürede bulunduğunuz konuma geliyor. Modern çekici araçlarımız sayesinde aracınızın zarar görmeden taşınmasını sağlıyoruz.
+        1. Hukuki Bilgi ve Deneyim Gereklidir
+        İstinaf dilekçesi yazarken doğru hukuki terimlerin kullanılması, kanun maddelerine uygunluk ve uygun delillerin sunulması çok önemlidir. Bir hukuki hata, başvurunuzun reddedilmesine ya da kararın aleyhinize sonuçlanmasına yol açabilir. Uzman bir avukat, doğru argümanları kurarak dilekçenizin güçlü bir şekilde sunulmasını sağlar.
 
-        Özellikle kaza durumlarında veya riskli yol koşullarında güvenilir oto kurtarma hizmeti büyük önem taşır. Biz, profesyonel ekibimizle sizlere en iyi hizmeti sunmak için çalışıyoruz. Uşak araç taşıma ihtiyaçlarınızda bizden destek alarak güvenliğinizi garanti altına alın!
+        2. Zaman Kısıtlamaları ve Süreler
+        İstinaf başvuruları belirli bir süre içinde yapılmalıdır. Bu süreyi kaçırmak, hakkınızın ortadan kalkmasına yol açar. Bir avukat, sürecin doğru şekilde takip edilmesini ve başvurunun zamanında yapılmasını sağlar, böylece zaman kaybı ve hukuki haklarınızın yitirilmesi engellenmiş olur.
+
+        3. Mahkeme Kararının İyi Analizi
+        İstinaf dilekçesi, mahkemenin verdiği kararın analiz edilmesini gerektirir. Kendi başınıza bu analizi yaparken hukuki incelemeyi eksik bırakabilir ya da yanlış bir noktaya odaklanabilirsiniz. Avukatınız, kararın hangi yönlerinin hatalı olduğunu net bir şekilde tespit eder ve buna uygun bir başvuru hazırlar.
+
+        4. Delillerin Etkin Kullanımı
+        İstinaf başvurusunda deliller çok önemlidir. Yeni delillerin sunulması ya da eski delillerin doğru şekilde değerlendirilmesi gerekir. Bir uzman, hangi delillerin etkili olacağını belirleyerek, sizin lehinize olacak şekilde bu delilleri dilekçenize dahil eder.
+
+        Sonuç
+        İstinaf dilekçesi hazırlamak, hukuki bir süreç olduğu için profesyonel yardım almak her zaman daha güvenlidir. Hukuk uzmanları, sürecin her aşamasında size rehberlik eder ve hakkınızı en iyi şekilde savunmanızı sağlar. Eğer siz de istinaf dilekçesi ile ilgili bir başvuru yapmak istiyorsanız, deneyimli bir avukattan yardım alarak süreci doğru bir şekilde yönlendirebilirsiniz.
+
+
       `,
-      image: otoKurtarma,
+      image: istinaf2,
       date: "10 Mart 2024",
-      author: "Kasaoğlu Oto Kurtarma",
-      category: "Oto Kurtarma Hizmeti",
-      readTime: "6 dakika",
+      author: "İstinaf Dilekçem",
+      category: "İstinaf Dilekçesi",
+      readTime: "3 dakika",
       relatedPosts: [1, 3]
     },
     {
       id: 3,
-      title: "Uşak Yol Yardım Hizmeti: 7/24 Kesintisiz Destek",
-      description: "Araç kullanırken beklenmedik sorunlarla karşılaşabilirsiniz. Lastik patlaması, yakıt bitmesi veya akü sorunları gibi durumlarda Uşak yol yardım ",
+      title: "İstinaf Dilekçesi Hazırlamak: Neden Bir Uzman Yardımına İhtiyacınız Var?",
+      description: "İstinaf dilekçesi, mahkemelerin verdiği kararları ikinci derece incelemeye alarak, bu kararın hatalı olduğu noktaları düzelttirmeyi amaçlayan hukuki bir başvurudur.",
       content: `
-        Araç kullanırken beklenmedik sorunlarla karşılaşabilirsiniz. Lastik patlaması, yakıt bitmesi veya akü sorunları gibi durumlarda Uşak yol yardım hizmetimizle bir telefon kadar uzağınızdayız!
+        İstinaf dilekçesi, mahkemelerin verdiği kararları ikinci derece incelemeye alarak, bu kararın hatalı olduğu noktaları düzelttirmeyi amaçlayan hukuki bir başvurudur. Ancak bu süreç, birçok karmaşıklık içerir. İşte, istinaf dilekçesi yazarken bir uzmandan yardım almanızın neden kritik olduğunu gösteren birkaç önemli neden:
 
-        Günün her saati sunduğumuz 7/24 oto çekici hizmetimiz ile aracınızı bulunduğu noktadan güvenle taşıyoruz. Uşak oto çekici ekibimiz, hızlı ve profesyonel çözümlerle sizleri mağdur etmeden en yakın servise ulaştırıyor.
+        1. Hatalı Kararın Tespit Edilmesi
+        Bir mahkemenin kararına itiraz etmek, çoğu zaman çok sayıda hukuki ve teknik detay içerir. Bu kararda yapılan yanlışlıkları fark etmek, sıradan bir kişi için kolay değildir. Bir avukat, yasal hataları tespit ederek, istinaf dilekçesini doğru temellere dayandırır ve sizin için en uygun çözümü sağlar.
 
-        Eğer acil çekici Uşak ihtiyacınız varsa, vakit kaybetmeden bize ulaşabilirsiniz. Uşak araç taşıma ve hızlı çekici Uşak hizmetlerimiz ile güvenli ve konforlu bir yolculuk için her an yanınızdayız!
+        2. Yargılama Sürecine Etki Edilen Zaman Kısıtlamaları
+        İstinaf başvurusu, mahkeme kararının tebliğinden sonra belli bir süre içinde yapılmalıdır. Bu süreyi kaçırmak, başvurunuzun geçersiz sayılmasına yol açar. Bir hukuk uzmanı, zaman kısıtlamalarını takip eder ve başvurunuzu zamanında yaparak, hakkınızın kaybolmasını engeller.
+
+        3. Hukuki Çerçeveye Uygunluk Sağlamak
+        İstinaf dilekçesi, belirli yasal çerçeveler içerisinde hazırlanmalıdır. Yasal boşluklar ya da eksik ifadeler, başvurunuzun reddedilmesine sebep olabilir. Bir avukat, dilekçenizi yasal çerçevelerle uyumlu hale getirerek, başvurunuzun reddedilme riskini en aza indirir.
+
+        4. Yeni Delillerin Eklenmesi ve İspat Süreci
+        İstinaf başvurusunda, yeni delillerin sunulması ya da eski delillerin yanlış yorumlanmasının düzeltilmesi gerekebilir. Bu aşamada yanlış bir karar, başvurunuzun başarısız olmasına yol açabilir. Bir avukat, hangi delillerin ve hangi tanıkların etkili olacağını analiz eder ve dosyanıza ekler.
+
+        Sonuç
+        İstinaf dilekçesi yazarken profesyonel destek almak, davanızı en güçlü şekilde savunabilmenizi sağlar. Hem yasal bilgi gereksinimlerini karşılamak hem de süreç boyunca size rehberlik etmek için bir avukattan yardım almak, sizi başarılı sonuçlara götürür. Eğer istinaf başvurusu yapacaksanız, deneyimli bir hukuk uzmanıyla çalışarak, sürecin doğru bir şekilde yönetilmesini sağlayabilirsiniz.
       `,
-      image: yolYardim,
+      image: istinaf3,
       date: "5 Mart 2024",
-      author: "Kasaopğlu Yol Yardım",
-      category: "Yol Yardım Hizmeti",
-      readTime: "7 dakika",
+      author: "İstinaf Dilekçem",
+      category: "İstinaf Dilekçesi",
+      readTime: "5 dakika",
       relatedPosts: [1, 2]
     },
   ]
@@ -79,14 +100,7 @@ function BlogDetail() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto mt-16 px-4">
-        {/* Geri Dönüş Linki */}
-        <Link
-          to="/blog"
-          className="inline-flex items-center gap-2 text-blue-600 font-medium mb-8 hover:text-blue-700 transition-colors duration-300"
-        >
-          <BsArrowLeft />
-          Tüm Blog Yazıları
-        </Link>
+
 
         <article className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
           {/* Başlık ve Meta Bilgiler */}

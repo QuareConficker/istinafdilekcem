@@ -13,8 +13,8 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   const contactInfo = {
-    phone: "+905078076400",
-    whatsapp: "+905078076400",
+    phone: "+905315643011",
+    whatsapp: "+905315643011",
   }
 
   const socialLinks = {
@@ -31,10 +31,10 @@ function Footer() {
           {/* Hakkımızda */}
           <div>
             <h3 className="text-white text-xl font-bold mb-4">
-              Kasapoğlu Oto Kurtarma
+              İstinaf Dilekçem
             </h3>
             <p className="mb-4 text-white">
-              20 yıllık tecrübemizle Uşak ve çevresinde 7/24 oto kurtarma hizmeti vermekteyiz. Uygun fiyatlar ile hizmetinizdeyiz.
+              27 yıllık zabıt katibi deneyimimiz ile sizlere özel en uygun fiyatlar ile kurallara en uygun dilekçeyi yazıp hemen teslim ediyoruz.
             </p>
             <div className="flex gap-4">
               <a
@@ -73,8 +73,7 @@ function Footer() {
               {[
                 { text: 'Ana Sayfa', href: '/' },
                 { text: 'Hakkımızda', href: '/about' },
-                { text: 'Hizmetlerimiz', href: '/services' },
-                { text: 'Galeri', href: '/gallery/photos' },
+                { text: 'Müşteri Yorumları', href: '/testimonials' },
                 { text: 'İletişim', href: '/contact' },
               ].map((link) => (
                 <li key={link.text}>
@@ -84,30 +83,6 @@ function Footer() {
                   >
                     <BsArrowRight className="text-blue-500" />
                     {link.text}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Hizmetler */}
-          <div>
-            <h3 className="text-white text-xl font-bold mb-4">
-              Hizmetlerimiz
-            </h3>
-            <ul className="space-y-2">
-              {[
-                'Oto Çekici',
-                'Oto Kurtarma',
-                'Yol Yardım'
-              ].map((service) => (
-                <li key={service}>
-                  <Link
-                    to="/services"
-                    className="text-white hover:text-blue-500 transition-colors duration-300 flex items-center gap-2"
-                  >
-                    <BsArrowRight className="text-blue-500" />
-                    {service}
                   </Link>
                 </li>
               ))}
@@ -126,7 +101,7 @@ function Footer() {
                   className="flex items-center gap-3 text-white hover:text-blue-500 transition-colors duration-300"
                 >
                   <BsTelephone className="text-blue-500 text-xl flex-shrink-0" />
-                  0 507 807 64 00
+                  0 531 564 3011
                 </a>
               </li>
               <li>
@@ -154,7 +129,7 @@ function Footer() {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2025 - Kasapoğlu Oto Kurtarma - Tüm Hakları Saklıdır.
+              © 2025 - İstinaf Dilekçem - Tüm Hakları Saklıdır.
             </p>
           </div>
         </div>

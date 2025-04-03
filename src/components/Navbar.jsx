@@ -26,10 +26,9 @@ function Navbar() {
     { title: 'Ana Sayfa', href: '/' },
     { title: 'Hakkımızda', href: '/about' },
     {
-      title: 'Hizmetlerimiz',
-      href: '/services',
+      title: 'Müşteri Yorumları',
+      href: '/testimonials',
     },
-    { title: 'Galeri', href: '/gallery/photos' },
     { title: 'İletişim', href: '/contact' },
   ];
 
@@ -40,18 +39,18 @@ function Navbar() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             <p className="text-sm">
-              <span className="font-semibold">Kasapoğlu Oto Kurtarma</span> Hizmetinizdeyiz!
+              <span className="font-semibold">İstinaf Dilekçem</span> | Sizlere kurallara en uygun, en hızlı, en etkili dilekçe hizmetini sunuyoruz!
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="tel:+905078076400"
+                href="tel:+905315643011"
                 className="text-sm hover:text-blue-200 transition-colors duration-300 flex items-center gap-1"
               >
                 <BsTelephone />
-                <span className="hidden sm:inline">0 507 807 64 00</span>
+                <span className="hidden sm:inline">0 531 564 3011</span>
               </a>
               <a
-                href="https://wa.me/905078076400"
+                href="https://wa.me/905315643011"
                 className="text-sm hover:text-blue-200 transition-colors duration-300 flex items-center gap-1"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,7 +68,7 @@ function Navbar() {
         <div className="flex justify-between items-center py-4">
           {/*Logo*/}
           <a href="/" className="text-[19px] font-bold text-blue-600">
-            KASAPOĞLU OTO KURTARMA
+            İstinaf Dilekçem
           </a>
 
           {/* Desktop Menu */}

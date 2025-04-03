@@ -14,26 +14,26 @@ function Testimonials() {
   const testimonials = [
     {
       name: "Ahmet Yılmaz",
-      role: "Oto Çekici",
+      role: "İstinaf Dilekçesi",
       image: "/testimonial1.jpg", // Varsayılan avatar kullanabilirsiniz
       rating: 5,
-      comment: "İnternetten bulduğum bu firma, çok kısa sürede olay yerine gelerek beni bu zor durumdan kurtardı. Hem hızlı hem de profesyonel bir hizmet sundular. Özellikle çekici sürücüsünün güler yüzlü ve yardımsever tavrı beni çok rahatlattı. Kesinlikle tavsiye ederim..",
+      comment: "Mahkeme kararıma itiraz etmek istiyordum ama ne yapmam gerektiğini bilmiyordum. İstinaf dilekçesi için buraya başvurdum. Süreç hakkında bilgilendirdiler ve dilekçemi çok hızlı bir şekilde teslim ettiler. Sonunda kurtuldum şu dertten.",
       date: "2 hafta önce"
     },
     {
       name: "Ayşe Kaya",
-      role: "Yol Yardım",
+      role: "İstinaf Dilekçesi",
       image: "/testimonial2.jpg",
       rating: 5,
-      comment: "İlk defa lastiğim patladı ne yapacağımı bilemedim. Kasapoğlu oto kurtarmayı aradım çok hızlı bir şekilde gelip yardımcı oldular kendilerine teşekkür ederim.",
+      comment: "İstinaf dilekçesi yazmam gerekiyordu fakat kendim yazmayı bilmiyordum malum avukat ücretleri de çok pahalı olduğu için kendilerine ulaştım sağolsunlar çok yardımcı oldular. Dilekçemi hızlı bir şekilde hazırladılar.",
       date: "1 ay önce"
     },
     {
       name: "Mehmet Demir",
-      role: "Yol Yardım",
+      role: "İstinaf Dilekçesi",
       image: "/testimonial3.jpg",
       rating: 5,
-      comment: "Aracımın aküsü bittiği için sabah işe giderken yolda kaldım. Acil olarak oto kurtarma hizmetine ihtiyacım vardı. Kasapoğlu oto kurtarma hizmeti sayesinde aracımı kısa sürede çalışır hale getirdiler. Çok memnun kaldım.",
+      comment: "Daha önce başka birisine de dilekçe yazdırdım resmen kopyala yapıştır yapmışlar güvenemediğim için bu firmayı buldum özenle ilgilendiler ve sorunuma çözüm buldular. Teşekkür ederim.",
       date: "2 ay önce"
     }
   ]
@@ -47,22 +47,8 @@ function Testimonials() {
   }
 
   return (
-    <section className="py-20">
+    <section className="py-20 mt-12">
       <div className="container  mx-auto px-4">
-        {/* Google Reviews Badge */}
-        <div className="flex justify-center mt-12 mb-12">
-          <div className="bg-white rounded-full shadow-lg px-6 py-3 flex items-center gap-3">
-            <BsGoogle className="text-2xl text-blue-600" />
-            <div className="flex items-center gap-1">
-              {[...Array(5)].map((_, i) => (
-                <BsStarFill key={i} className="text-yellow-400" />
-              ))}
-            </div>
-            <span className="font-semibold text-gray-800">4.9/5</span>
-            <span className="text-gray-500">Google'da</span>
-          </div>
-        </div>
-
         {/* Başlık */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -147,7 +133,7 @@ function Testimonials() {
         {/* CTA */}
         <div className="mt-16 text-center">
           <a
-            href="tel:+905078076400"
+            href="tel:+905315643011"
             className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300"
           >
             Siz de Memnun Müşterilerimizden Olun

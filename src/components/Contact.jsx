@@ -6,12 +6,12 @@ import {
 
 function Contact() {
   const contactInfo = {
-    phone: "+905078076400",
-    whatsapp: "+905078076400",
+    phone: "+905315643011",
+    whatsapp: "+905315643011",
   }
 
   return (
-    <section data-aos="fade-left" id="contact" className="py-20 mt-12 ">
+    <section id="contact" className="py-20 mt-12 ">
       <div className="container mx-auto px-4">
         {/* Başlık */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -19,7 +19,7 @@ function Contact() {
             Hemen İletişime Geçin
           </h2>
           <p className="text-gray-600 text-lg">
-            7/24 hizmetinizdeyiz. Size en uygun fiyatlar ile en iyi çözümü sunuyoruz.
+            Size özel kurallara en uygun şekilde yazdığımız istinaf dilekçeleri ile sorununuza çözüm buluyoruz.
           </p>
         </div>
 
@@ -39,10 +39,10 @@ function Contact() {
                   href={`tel:${contactInfo.phone}`}
                   className="text-lg text-blue-600 hover:text-blue-700 transition-colors duration-300 font-medium"
                 >
-                  0507 807 64 00
+                  0 531 564 3011
                 </a>
                 <p className="mt-2 text-gray-600">
-                  7/24 telefon desteği
+                  İstinaf dilekçenizi hemen hazırlayalım.
                 </p>
               </div>
             </div>
@@ -55,16 +55,16 @@ function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-xl text-gray-900 mb-2">
-                  Bizi Arayın
+                  İstinaf Dilekçesi Yazdır
                 </h3>
                 <a
                   href={`tel:${contactInfo.phone}`}
                   className="text-lg text-blue-600 hover:text-blue-700 transition-colors duration-300 font-medium"
                 >
-                  0546 707 36 35
+                  0 531 564 3011
                 </a>
                 <p className="mt-2 text-gray-600">
-                  7/24 telefon desteği
+                  Size özel kurallara uygun dilekçenizi hemen yazalım.
                 </p>
               </div>
             </div>
@@ -85,10 +85,10 @@ function Contact() {
                   rel="noopener noreferrer"
                   className="text-lg text-green-600 hover:text-green-700 transition-colors duration-300 font-medium"
                 >
-                  0507 807 64 00
+                  0 531 564 3011
                 </a>
                 <p className="mt-2 text-gray-600">
-                  Hızlı teklif ve bilgi için
+                  Hızlı teklif ve bilgi için bize yazın.
                 </p>
               </div>
             </div>
@@ -97,10 +97,10 @@ function Contact() {
         {/* CTA Banner */}
         <div className="mt-12 bg-blue-600 rounded-2xl p-8 text-center text-white max-w-6xl mx-auto">
           <h3 className="text-2xl text-white font-bold mb-4">
-            Yol Yardımı ve Oto Kurtarma İçin Hemen Arayın!
+            İstinaf Dilekçesi Yazdırmak İçin Hemen Arayın!
           </h3>
           <p className="text-blue-100 mb-6">
-            Size kaliteli ve uygun fiyatlı hizmeti verelim.
+            Size özel hazırlanmış kurallara uygun istinaf dilekçesi
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -6,15 +6,13 @@ import { Routes, Route, } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Services from './components/Services'
 import About from './components/About'
-import PhotoGallery from './components/PhotoGallery'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FloatingButtons from './components/FloatingButtons'
-import BlogList from './components/BlogList'
 import BlogDetail from './components/BlogDetail'
 import NotFound from './components/NotFound'
+import Testimonials from './components/Testimonials';
 
 function App() {
   useEffect(() => {
@@ -31,11 +29,9 @@ function App() {
         {/* Ana Site Rotaları */}
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/gallery/photos" element={<PhotoGallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<BlogList />} />
         <Route path="/blog/:blogId" element={<BlogDetail />} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <>
