@@ -25,6 +25,11 @@ function Navbar() {
   const navLinks = [
     { title: 'Ana Sayfa', href: '/' },
     { title: 'Hakkımızda', href: '/about' },
+    { title: 'İtiraz Dilekçesi', href: '/itirazdilekcesi' },
+    { title: 'Savunma Dilekçesi', href: '/savunmadilekcesi' },
+    { title: 'Şikayet Dilekçesi', href: '/sikayetdilekcesi' },
+    { title: 'İcra Dilekçesi', href: '/icradilekcesi' },
+    { title: 'Temyiz Dilekçesi', href: '/temyizdilekcesi' },
     {
       title: 'Müşteri Yorumları',
       href: '/testimonials',

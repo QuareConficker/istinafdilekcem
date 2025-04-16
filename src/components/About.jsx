@@ -14,7 +14,7 @@ function About() {
         {/* Başlık */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            İstinaf Dilekçem
+            Dilekçe Yazdırmak İçin Bize Ulaşınız
           </h2>
           <p className="text-gray-600 text-lg">
             <b> 27 yıllık zabıt katibi deneyimine</b> sahip bir ekiple, hukuki süreçlerinizde profesyonel, güvenilir ve hızlı bir şekilde sizlere en iyi hizmeti sunmayı hedefliyoruz. Uzman kadromuz, yılların getirdiği tecrübe ve bilgi birikimiyle, istinaf başvurularınızda  <b> en doğru</b>, <b>en hızlı</b> ve <b> en etkili </b>çözüm yollarını sunmaktadır.

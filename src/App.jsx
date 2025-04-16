@@ -13,6 +13,11 @@ import FloatingButtons from './components/FloatingButtons'
 import BlogDetail from './components/BlogDetail'
 import NotFound from './components/NotFound'
 import Testimonials from './components/Testimonials';
+import SavunmaDilekcesi from './components/SavunmaDilekcesi';
+import İtirazDilekcesi from './components/İtirazDilekcesi';
+import SikayetDilekcesi from './components/SikayetDilekcesi';
+import İcraDilekcesi from './components/İcraDilekcesi';
+import TemyizDilekcesi from './components/TemyizDilekcesi';
 
 function App() {
   useEffect(() => {
@@ -32,6 +37,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog/:blogId" element={<BlogDetail />} />
         <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/savunmadilekcesi" element={<SavunmaDilekcesi />} />
+        <Route path="/itirazdilekcesi" element={<İtirazDilekcesi />} />
+        <Route path="/sikayetdilekcesi" element={<SikayetDilekcesi />} />
+        <Route path="/icradilekcesi" element={<İcraDilekcesi />} />
+        <Route path="/temyizdilekcesi" element={<TemyizDilekcesi />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <>

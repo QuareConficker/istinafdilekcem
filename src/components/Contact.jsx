@@ -55,7 +55,7 @@ function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-xl text-gray-900 mb-2">
-                  İstinaf Dilekçesi Yazdır
+                  Dilekçe Yazdır
                 </h3>
                 <a
                   href={`tel:${contactInfo.phone}`}
